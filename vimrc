@@ -113,25 +113,21 @@ function! Open()
 endfunction
 
 function! F_5()
-  let dir=a:n1
   wa
   exec "!clear; ./vim vim_f5"
 endfunction
 
 function! F_6()
-  let dir=a:n1
   wa
   exec "!clear; ./vim vim_f6"
 endfunction
 
 function! F_7()
-  let dir=a:n1
   wa
   exec "!clear; ./vim vim_f7"
 endfunction
 
 function! F_8()
-  let dir=a:n1
   wa
   exec "!clear; ./vim vim_f8"
 endfunction
@@ -150,7 +146,7 @@ command -nargs=? Grep call GitGrep(<f-args>)
 map <F1> :!sh ~/weedvision/install.sh<CR>
 map <F4> :!sh ~/weedvision/updateAll.sh<CR>
 
-map <F5> :call F_5()>CR>
+map <F5> :call F_5()<CR>
 map <F6> :call F_6()<CR>
 map <F7> :call F_7()<CR>
 map <F8> :call F_8()<CR>

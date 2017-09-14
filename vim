@@ -32,7 +32,7 @@ class VimExec(object):
 
 
     def vim_f5(self):
-        call('echo f5');
+        call('sh setup.sh');
 
     def vim_f6(self):
         call('echo f6');
