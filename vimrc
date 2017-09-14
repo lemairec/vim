@@ -7,10 +7,10 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'scrooloose/nerdtree.git'
-Plugin 'lepture/vim-jinja'
-Plugin 'vim-scripts/taglist.vim.git'
+"Plugin 'lepture/vim-jinja'
+"Plugin 'vim-scripts/taglist.vim.git'
 Plugin 'kien/ctrlp.vim.git'
-Plugin 'kchmck/vim-coffee-script'
+"Plugin 'kchmck/vim-coffee-script'
 Plugin 'vim-scripts/mru.vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
